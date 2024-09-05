@@ -67,7 +67,22 @@ function getBotResponse(input) {
     return "Hi Krish bhai!";
   } else if (input.includes("lohith")) {
     return "Bro only talks with girls!";
-  }else if (input.includes("thanks")) {
+  }else if (input.includes("urmila")) {
+    return "hiiie urmila shah how are you ";
+  }
+  else if (input.includes("i am tiya")) {
+    return "hey tiya this is your kumbh karan ik i slept last night but i am very sorry tiyuuuuu pleaseee maaf kardooo i miss you bhot sara i LOVEEE YOUUU SOO SOO SOO MUCH WHEN YOU GETS SAD MY WHOLE DAY GOES LIKE I CANT EVEN EXPRESS i loveee you if apnee maaf kr diya soo type maaf kiya if not say nahi kiya ";
+  }
+  else if (input.includes("maaf kiya")) {
+    return "I LOVVEEEE YOUUUU MERA POOKIEEEE I PROMISE I WILL CORRECT THIS HABBIT OF MINE AND WILL NEVER HURT U AGAIN IK U BELIEVE IN ACTION NOT WORDS BUT TRUST ME U ARE EVERYTHING TO MEEE";
+  }
+  else if (input.includes("nahi kiya")) {
+    return "sorry sorry sorry sorry sorry sorry sorry sorry sorry sorry sorry sorry sorry sorry meriiii daya ben plese forgive your jhethala plese plese plese";
+  }
+  else if (input.includes("i am krutika")) {
+    return "hiiiiii krish ki masimaaa most popular and sabse cuteeee ";
+  }
+  else if (input.includes("thanks")) {
     return "You're welcome! 😊";
   } else if (input.includes("weather")) {
     return "Sure! The weather today is sunny 🌞";
