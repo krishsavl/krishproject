@@ -24,7 +24,7 @@ function sendMessage() {
 
     // Show typing indicator
     let typingIndicator = document.createElement("div");
-    typingIndicator.textContent = "Bot is typing...";
+    typingIndicator.textContent = "pookie is typing...";
     typingIndicator.style.color = "#aaa";
     typingIndicator.id = "typing";
     messages.appendChild(typingIndicator);
@@ -39,7 +39,7 @@ function sendMessage() {
 
       // Display bot's message
       let botMessage = document.createElement("div");
-      botMessage.textContent = "Bot: " + getBotResponse(userInput);
+      botMessage.textContent = "pookie: " + getBotResponse(userInput);
       botMessage.style.marginBottom = "10px";
       botMessage.style.color = "#0d47a1";
       messages.appendChild(botMessage);
